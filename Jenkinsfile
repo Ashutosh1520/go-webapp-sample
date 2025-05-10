@@ -15,7 +15,7 @@ pipeline {
   stages {
     stage ('Checkout') {
       steps {
-        'git https://github.com/Ashutosh1520/go-webapp-sample.git'
+        git 'https://github.com/Ashutosh1520/go-webapp-sample.git'
       }
     }
     stage('Test') {
