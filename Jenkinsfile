@@ -14,7 +14,7 @@ pipeline {
   }
   stages {
     stage ('Checkout') {
-      step {
+      steps {
         sh 'git https://github.com/Ashutosh1520/go-webapp-sample.git'
       }
     }
