@@ -6,7 +6,7 @@ pipeline {
   environment {
     GO111MODULE='on'
     CGO_ENABLED='1'
-    GOOS='limux'
+    GOOS='linux'
     GOARCH='amd64'
   }
   triggers{
