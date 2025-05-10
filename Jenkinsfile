@@ -70,6 +70,7 @@ pipeline {
            '''
       }
     }
+  }  
   post {
     failure {
       mail to: 'ashutoshgiri1506@gmail.com',
@@ -77,5 +78,4 @@ pipeline {
         body: "Check Jenkins for details: ${env.BUILD_URL}"
     }
   }       
-  }
 }
